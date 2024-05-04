@@ -1,0 +1,18 @@
+//1         
+select distinct d.* from doctors  d
+inner join admissions  a
+on d.doctor_id = a.attending_doctor_id
+
+select *from doctors
+select * from admissions
+
+//2
+select d.* from doctors d
+left join admissions a
+on d.doctor_id=a.attending_doctor_id
+where a.attending_doctor_id is null;
+//3
+select p.* from patients p
+left join admissions a
+on p.patient_id=a.patient_id
+where a.attending_doctor_id is null;

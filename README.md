@@ -14,7 +14,7 @@ i have written queries for given test and uploaded as a text file
 
 # postman
 
-coming to postman task i didnot understand the instructin clearly
+coming to postman task i didnot understand the instructions clearly
 
 
 
